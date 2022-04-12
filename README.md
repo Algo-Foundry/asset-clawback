@@ -1,4 +1,4 @@
-## Rekey account assignment
+## Asset clawback assignment
 
 Perform an asset clawback from one account to another. You are required to do the following,
 
