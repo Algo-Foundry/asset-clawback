@@ -161,5 +161,5 @@ const sendAlgos = async (sender, receiver, amount) => {
 
   // Check your work
   console.log("Receiver assets: ", (await algodClient.accountInformation(receiver.addr).do()).assets);
-  console.log("New recepient assets: ", (await algodClient.accountInformation(clawbackTo.addr).do()).assets);
+  console.log("New recipient assets: ", (await algodClient.accountInformation(clawbackTo.addr).do()).assets);
 })();
