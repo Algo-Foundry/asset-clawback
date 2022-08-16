@@ -129,8 +129,8 @@ const sendAlgos = async (sender, receiver, amount) => {
   let signedTxn2 = txn2.signTxn(creator.sk);
   await submitToNetwork(signedTxn2);
 
-  // New recepient account opts into asset
-  console.log("New recepient opts into asset...");
+  // New recipient account opts into asset
+  console.log("New recipient opts into asset...");
   let txn3 = algosdk.makeAssetTransferTxnWithSuggestedParams(
     clawbackTo.addr,
     clawbackTo.addr,
