@@ -51,7 +51,7 @@ const createAsset = async (maker, clawbackAcc) => {
     defaultFrozen,
     freeze: undefined,
     manager: undefined,
-    clawback: clawbackAcc.addr, // the creator account can perform the clawback
+    clawback: clawbackAcc.addr,
     reserve: undefined,
 
     suggestedParams,
